@@ -17,7 +17,7 @@ const PlayerBar = () => {
                 </Box>
                 ): null}
                 <Box width="40%">
-                    {activeSong ? <Player songs={songs} activeSong = {activeSong}/> : null }
+                    {activeSong ? <Player songs={songs} activeSong={activeSong}/> : null }
                 </Box>
             </Flex>
         </Box>
